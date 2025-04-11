@@ -5,84 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Employee Management</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <style>
-        /* Pastel purple and natural tones */
+        /* Pastel blue-green-cyan color scheme */
         body {
             padding-top: 70px;
             font-family: "Segoe UI", sans-serif;
-            background-color: #f6f4f9;
-            color: #2e2a3f;
+            background-color: #edf7f9;
+            color: #2a3e40;
         }
-
         .navbar-custom {
-            background-color: #eae6f7;
-            border-bottom: 1px solid #d2cce6;
+            background-color: #c9e7ea;
+            border-bottom: 1px solid #b5d8dd;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
         }
-
         .navbar-custom .nav-link {
-            color: #4b3e73;
+            color: #1d6269;
             font-weight: 500;
         }
-
         .navbar-custom .nav-link:hover {
-            color: #7d5bbe;
+            color: #2a8f99;
         }
-
         header h1 {
             font-size: 2.2rem;
-            color: #3e3b50;
+            color: #1c5255;
         }
-
         .container {
             max-width: 960px;
         }
-
         /* Card and table styling */
         .card {
             border: none;
             background-color: #ffffff;
             box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
         }
-
         table th {
-            background-color: #e5dcf4;
-            color: #3c345b;
+            background-color: #d0eaed;
+            color: #1d5c62;
         }
-
         /* Buttons */
         .btn-edit {
-            background-color: #c3b4df;
-            color: #2e2a3f;
+            background-color: #a0d6da;
+            color: #1d5c62;
             font-weight: 500;
             border: none;
             padding: 6px 14px;
             border-radius: 6px;
             transition: background-color 0.2s ease-in-out;
         }
-
         .btn-edit:hover {
-            background-color: #b1a0d1;
+            background-color: #7ec4cb;
             color: #ffffff;
         }
-
         .btn-custom {
-            background-color: #dfebe3;
-            color: #4a6041;
+            background-color: #bfe8e0;
+            color: #2a6d63;
             border: none;
         }
-
         .btn-custom:hover {
-            background-color: #cde1d4;
-            color: #2e3d2d;
-        }
-
-        footer {
-            margin-top: 60px;
-            font-size: 0.9rem;
-            text-align: center;
-            color: #9a9a9a;
+            background-color: #a3d9ce;
+            color: #1c4e45;
         }
     </style>
 </head>
@@ -101,18 +82,11 @@
                 </div>
             </nav>
         </header>
-
         <main>
             {% block content %}
             {% endblock %}
         </main>
-
-        <!-- Optional Footer -->
-        <!-- <footer>
-            <p>&copy; 2025 Employee Management System</p>
-        </footer> -->
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
